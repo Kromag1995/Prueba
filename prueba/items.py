@@ -8,7 +8,10 @@
 import scrapy
 
 
-class PruebaItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+class Divisa(scrapy.Item):
+    descripcion = scrapy.Field()
+    ultimo = scrapy.Field()
+    anterior = scrapy.Field()
+    variacion = scrapy.Field()
+    fecha = scrapy.Field()
     pass
